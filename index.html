@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,467 +9,495 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="Hao Wei">
-  <meta property="og:description" content="PhD Student at Technical University of Munich · Neural PDE Solvers · Physics-based Simulation">
+  <meta property="og:description"
+    content="PhD Student at Technical University of Munich · Neural PDE Solvers · Physics-based Simulation">
   <meta property="og:image" content="assets/images/avatar.jpg">
 
   <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌊</text></svg>">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌊</text></svg>">
 
   <!-- Google Fonts: Barlow -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
 
   <!-- Font Awesome 4 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Bootstrap 4 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-<div class="site-content">
+  <div class="site-content">
 
-  <!-- ===== NAVBAR ===== -->
-  <header class="page-content">
-    <nav class="navbar navbar-expand-md navbar-light py-4">
-      <div class="container-fluid px-0">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
-                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav ml-auto mt-3 mt-md-0">
-            <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
-            <li class="nav-item"><a class="nav-link" href="#news">news</a></li>
-            <li class="nav-item"><a class="nav-link" href="#publications">publications</a></li>
-            <li class="nav-item"><a class="nav-link" href="#experience">experience</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="assets/uploads/resume.pdf" target="_blank" rel="noopener noreferrer">
-                CV&nbsp;<i class="fa fa-external-link" aria-hidden="true" style="font-size:.8rem;"></i>
-              </a>
-            </li>
-          </ul>
+    <!-- ===== NAVBAR ===== -->
+    <header class="page-content">
+      <nav class="navbar navbar-expand-md navbar-light py-4">
+        <div class="container-fluid px-0">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ml-auto mt-3 mt-md-0">
+              <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+              <li class="nav-item"><a class="nav-link" href="#news">news</a></li>
+              <li class="nav-item"><a class="nav-link" href="#publications">publications</a></li>
+              <li class="nav-item"><a class="nav-link" href="#experience">experience</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="assets/uploads/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  CV&nbsp;<i class="fa fa-external-link" aria-hidden="true" style="font-size:.8rem;"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <main class="page-content" aria-label="Content">
-  <div class="wrapper">
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
 
-    <!-- ===== ABOUT ===== -->
-    <div class="container py-3" id="about">
-      <div class="row">
+        <!-- ===== ABOUT ===== -->
+        <div class="container py-3" id="about">
+          <div class="row">
 
-        <!-- Profile photo -->
-        <div class="col-12 col-md-3 align-self-center mb-4 mb-md-0 text-center text-md-left">
-          <img class="profile-photo"
-               src="assets/images/avatar.jpg"
-               alt="Portrait of Hao Wei"
-               title="Hao Wei">
-        </div>
+            <!-- Profile photo -->
+            <div class="col-12 col-md-3 align-self-center mb-4 mb-md-0 text-center text-md-left">
+              <img class="profile-photo" src="assets/images/avatar.jpg" alt="Portrait of Hao Wei" title="Hao Wei">
+            </div>
 
-        <!-- Bio -->
-        <div class="col-12 col-md-9 align-self-center">
-          <h4 style="font-weight:600; margin-bottom:.75rem;">Hao Wei</h4>
+            <!-- Bio -->
+            <div class="col-12 col-md-9 align-self-center">
+              <h4 style="font-weight:600; margin-bottom:.75rem;">Hao Wei</h4>
 
-          <p style="font-size:.95rem; line-height:1.6rem;">
-            I am a PhD student at the
-            <a href="https://www.tum.de/en/" target="_blank" rel="noopener noreferrer">Technical University of Munich (TUM)</a>,
-            advised by Prof.&nbsp;<a href="https://ge.in.tum.de/about/n-thuerey/" target="_blank" rel="noopener noreferrer">Nils Thuerey</a>
-            in the <a href="https://tum-pbs.github.io/" target="_blank" rel="noopener noreferrer">Physics-based Simulation</a> group.
-            I am passionate about building AI systems that respect and exploit physical laws —
-            particularly for simulating complex fluid dynamics efficiently and accurately.
+              <p style="font-size:.95rem; line-height:1.6rem;">
+                I am a PhD student at the
+                <a href="https://www.tum.de/en/" target="_blank" rel="noopener noreferrer">Technical University of
+                  Munich (TUM)</a>,
+                advised by Prof.&nbsp;<a href="https://ge.in.tum.de/about/n-thuerey/" target="_blank"
+                  rel="noopener noreferrer">Nils Thuerey</a>
+                in the <a href="https://tum-pbs.github.io/" target="_blank" rel="noopener noreferrer">Physics-based
+                  Simulation</a> group.
+                I am passionate about building AI algorithms that respect physical laws, particularly for simulating,
+                modeling, and reconstructing complex physical systems efficiently and accurately.
+              </p>
+
+              <p style="font-size:.95rem; line-height:1.6rem;">
+                My research focuses on <strong>integrating physical laws, structural priors and differentiable
+                  solvers</strong> into machine learning models to construct more robust, reliable and long-term stable
+                rollout learning algorithms
+              </p>
+
+              <p style="font-size:.95rem; line-height:1.6rem;">
+                Previously, I received my master's degree from
+                <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang
+                  University</a>,
+                and interned at
+                <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank"
+                  rel="noopener noreferrer">Microsoft Research Asia</a>
+                and the
+                <a href="https://hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">Hong Kong University of
+                  Science and Technology</a>.
+              </p>
+
+              <!-- Social links -->
+              <p style="font-size:.93rem; font-weight:400; line-height:2.2rem; margin-top:.5rem;">
+                <a href="mailto:howw1225@gmail.com" target="_blank" rel="noopener noreferrer"
+                  style="margin-right:1.5rem;">
+                  <i class="fa fa-envelope" aria-hidden="true" style="margin-right:6px;"></i>howw1225@gmail.com
+                </a>
+                <a href="https://scholar.google.com/citations?user=i2lwmvcAAAAJ&hl=en" target="_blank"
+                  rel="noopener noreferrer" style="margin-right:1.5rem;">
+                  <i class="fa fa-graduation-cap" aria-hidden="true" style="margin-right:6px;"></i>Google Scholar
+                </a>
+                <a href="https://github.com/Howw-Way" target="_blank" rel="noopener noreferrer"
+                  style="margin-right:1.5rem;">
+                  <i class="fa fa-github" aria-hidden="true" style="margin-right:6px;"></i>GitHub
+                </a>
+                <a href="https://www.researchgate.net/profile/Hao-Wei-36" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-flask" aria-hidden="true" style="margin-right:6px;"></i>ResearchGate
+                </a>
+              </p>
+            </div>
+
+          </div>
+        </div><!-- /#about -->
+
+
+        <!-- ===== NEWS ===== -->
+        <div class="container pb-3 px-0 px-md-3" id="news" style="padding-top:2.5rem;">
+          <h4 style="padding-bottom:.5rem;">News</h4>
+
+          <div class="row">
+            <div class="col-12" style="margin-top:.4rem;">
+              <table class="news-table" aria-label="Recent news">
+                <tbody>
+                  <tr>
+                    <td class="news-date">May 2026</td>
+                    <td class="news-text">
+                      <strong>ReViT</strong> accepted at <strong>ICML 2026</strong> as an
+                      <span class="badge-oral">Oral</span> paper (top ~1%)!
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="news-date">Nov 2025</td>
+                    <td class="news-text">
+                      <strong>INC</strong> accepted at <strong>NeurIPS 2025</strong>!
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="news-date">2025</td>
+                    <td class="news-text">
+                      <strong>PICT</strong> published in <strong>Journal of Computational Physics</strong>.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="news-date">Dec 2023</td>
+                    <td class="news-text">
+                      Started PhD at <strong>Technical University of Munich</strong>, advised by Prof. Nils Thuerey.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="news-date">Jul 2023</td>
+                    <td class="news-text">
+                      Started as a research assistant at <strong>Hong Kong University of Science and
+                        Technology</strong>, Guangzhou.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="news-date">Aug 2022</td>
+                    <td class="news-text">
+                      Started as a research intern at <strong>Microsoft Research Asia</strong>, Beijing.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div><!-- /#news -->
+
+
+        <!-- ===== PUBLICATIONS ===== -->
+        <div class="container pb-3 px-0 px-md-3" id="publications" style="padding-top:2.5rem;">
+          <h4 style="padding-bottom:.3rem;">Publications</h4>
+          <!-- <p style="font-size:.83rem; color:#888; margin-bottom:1rem;">
+            * denotes equal contribution. Author names are listed in order of contribution unless noted.
+          </p> -->
+
+          <div id="projects-container"></div>
+        </div><!-- /#publications -->
+
+
+        <!-- ===== EXPERIENCE ===== -->
+        <div class="container pb-3 px-0 px-md-3" id="experience" style="padding-top:2.5rem;">
+          <h4 style="padding-bottom:.75rem;">Experience &amp; Education</h4>
+
+          <!-- TUM PhD -->
+          <div class="row exp-row">
+            <div class="col-12 col-md-2">
+              <span class="exp-date">Dec 2023 – present</span>
+            </div>
+            <div class="col-12 col-md-10">
+              <p class="exp-title mb-0">PhD Candidate in Computer Science</p>
+              <p class="exp-org mb-0">
+                <a href="https://ge.in.tum.de/about/n-thuerey/" target="_blank" rel="noopener noreferrer">Physics-based
+                  Simulation Group</a>,
+                Technical University of Munich
+              </p>
+              <p class="exp-detail">Research on encoding physics into ML &middot; Advised by Prof. <a
+                  href="https://ge.in.tum.de/about/n-thuerey/" target="_blank" rel="noopener noreferrer">Nils
+                  Thuerey</a> &middot; Munich, Germany</p>
+            </div>
+          </div>
+
+          <!-- HKUST internship -->
+          <div class="row exp-row">
+            <div class="col-12 col-md-2">
+              <span class="exp-date">Jul – Nov 2023</span>
+            </div>
+            <div class="col-12 col-md-10">
+              <p class="exp-title mb-0">Research Assistant</p>
+              <p class="exp-org mb-0">
+                <a href="https://hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">Hong Kong University of
+                  Science and Technology</a>,
+                Thrust of Data Science and Analytics Lab
+              </p>
+              <p class="exp-detail">Developed neural PDE solvers for unstructured inputs based on MPNNs &middot; Advised
+                by Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs"
+                  target="_blank" rel="noopener noreferrer">Wei Wang</a> &middot; Guangzhou, China</p>
+            </div>
+          </div>
+
+          <!-- ZJU RA -->
+          <div class="row exp-row">
+            <div class="col-12 col-md-2">
+              <span class="exp-date">Mar – Jun 2023</span>
+            </div>
+            <div class="col-12 col-md-10">
+              <p class="exp-title mb-0">Research Assistant</p>
+              <p class="exp-org mb-0">
+                <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang
+                  University</a>,
+                Computational Physics Lab
+              </p>
+              <p class="exp-detail">Developed models for tobacco pyrolysis: a chemical-based FORTRAN model and an
+                ML-based model &middot; Hangzhou, China</p>
+            </div>
+          </div>
+
+          <!-- MSRA internship -->
+          <div class="row exp-row">
+            <div class="col-12 col-md-2">
+              <span class="exp-date">Aug – Nov 2022</span>
+            </div>
+            <div class="col-12 col-md-10">
+              <p class="exp-title mb-0">Research Intern</p>
+              <p class="exp-org mb-0">
+                <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank"
+                  rel="noopener noreferrer">Microsoft Research Asia</a>,
+                AI4Science Lab
+              </p>
+              <p class="exp-detail">Developed a hybrid PDE solver by integrating FNO into a differentiable FDM solver
+                &middot; Beijing, China</p>
+            </div>
+          </div>
+
+          <!-- ZJU Master -->
+          <div class="row exp-row">
+            <div class="col-12 col-md-2">
+              <span class="exp-date">2020 – 2023</span>
+            </div>
+            <div class="col-12 col-md-10">
+              <p class="exp-title mb-0">M.S. in Engineering</p>
+              <p class="exp-org mb-0">
+                <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang
+                  University</a>
+              </p>
+              <p class="exp-detail">Research on ML for industry &middot; Advised by Prof. <a
+                  href="https://scholar.google.com/citations?user=_SEg1VEAAAAJ&hl=zh-CN" target="_blank"
+                  rel="noopener noreferrer">Kun Luo</a> and Prof. <a href="https://person.zju.edu.cn/en/0084045#862878"
+                  target="_blank" rel="noopener noreferrer">Jianren Fan</a> &middot; Hangzhou, China</p>
+            </div>
+          </div>
+
+          <!-- NEU Bachelor -->
+          <div class="row exp-row">
+            <div class="col-12 col-md-2">
+              <span class="exp-date">2016 – 2020</span>
+            </div>
+            <div class="col-12 col-md-10">
+              <p class="exp-title mb-0">B.S. in Engineering</p>
+              <p class="exp-org mb-0">
+                <a href="http://english.neu.edu.cn/" target="_blank" rel="noopener noreferrer">Northeastern
+                  University</a>
+              </p>
+              <p class="exp-detail">Research on computational combustion &middot; Shenyang, China</p>
+            </div>
+          </div>
+
+        </div><!-- /#experience -->
+
+
+        <!-- ===== CONTACT ===== -->
+        <div class="container pb-5 px-0 px-md-3" id="contact" style="padding-top:2.5rem;">
+          <h4 style="padding-bottom:.75rem;">Contact</h4>
+          <p style="font-size:.93rem; line-height:1.7rem;">
+            I am always open to research discussions and collaborations. Feel free to reach out!
           </p>
 
-          <p style="font-size:.95rem; line-height:1.6rem;">
-            My research focuses on <strong>neural PDE solvers</strong>, with an emphasis on
-            designing architectures with strong physical inductive biases (e.g., rotational equivariance)
-            and learning-based correctors for hybrid numerical solvers.
+          <p class="contact-item">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:howw1225@gmail.com">howw1225@gmail.com</a>
           </p>
-
-          <p style="font-size:.95rem; line-height:1.6rem;">
-            Previously, I received my master's degree from
-            <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a>,
-            and interned at
-            <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank" rel="noopener noreferrer">Microsoft Research Asia</a>
-            and the
-            <a href="https://hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">Hong Kong University of Science and Technology</a>.
+          <p class="contact-item">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/Howw-Way" target="_blank" rel="noopener noreferrer">github.com/Howw-Way</a>
           </p>
-
-          <!-- Social links -->
-          <p style="font-size:.93rem; font-weight:400; line-height:2.2rem; margin-top:.5rem;">
-            <a href="mailto:howw1225@gmail.com" target="_blank" rel="noopener noreferrer" style="margin-right:1.5rem;">
-              <i class="fa fa-envelope" aria-hidden="true" style="margin-right:6px;"></i>howw1225@gmail.com
-            </a>
-            <a href="https://scholar.google.com/citations?user=i2lwmvcAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style="margin-right:1.5rem;">
-              <i class="fa fa-graduation-cap" aria-hidden="true" style="margin-right:6px;"></i>Google Scholar
-            </a>
-            <a href="https://github.com/Howw-Way" target="_blank" rel="noopener noreferrer" style="margin-right:1.5rem;">
-              <i class="fa fa-github" aria-hidden="true" style="margin-right:6px;"></i>GitHub
-            </a>
-            <a href="https://www.researchgate.net/profile/Hao-Wei-36" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-flask" aria-hidden="true" style="margin-right:6px;"></i>ResearchGate
-            </a>
+          <p class="contact-item">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            Physics-based Simulation Group, Technical University of Munich,
+            Boltzmannstraße 3, 85748 Garching, Germany
           </p>
-        </div>
+        </div><!-- /#contact -->
 
-      </div>
-    </div><!-- /#about -->
+      </div><!-- /.wrapper -->
+    </main>
 
+    <!-- ===== FOOTER ===== -->
+    <footer class="page-content py-4">
+      <p>© 2026 Hao Wei &nbsp;·&nbsp; Last updated May 2026</p>
+    </footer>
 
-    <!-- ===== NEWS ===== -->
-    <div class="container pb-3 px-0 px-md-3" id="news" style="padding-top:2.5rem;">
-      <h4 style="padding-bottom:.5rem;">News</h4>
-
-      <div class="row">
-        <div class="col-12" style="margin-top:.4rem;">
-          <table class="news-table" aria-label="Recent news">
-            <tbody>
-              <tr>
-                <td class="news-date">May 2026</td>
-                <td class="news-text">
-                  <strong>ReViT</strong> accepted at <strong>ICML 2026</strong> as an
-                  <span class="badge-oral">Oral</span> paper (top ~1.5%)!
-                </td>
-              </tr>
-              <tr>
-                <td class="news-date">Nov 2025</td>
-                <td class="news-text">
-                  <strong>INC</strong> accepted at <strong>NeurIPS 2025</strong>!
-                </td>
-              </tr>
-              <tr>
-                <td class="news-date">2025</td>
-                <td class="news-text">
-                  <strong>PICT</strong> published in <strong>Journal of Computational Physics</strong>.
-                </td>
-              </tr>
-              <tr>
-                <td class="news-date">Dec 2023</td>
-                <td class="news-text">
-                  Started PhD at <strong>Technical University of Munich</strong>, advised by Prof. Nils Thuerey.
-                </td>
-              </tr>
-              <tr>
-                <td class="news-date">Jul 2023</td>
-                <td class="news-text">
-                  Started as a research assistant at <strong>Hong Kong University of Science and Technology</strong>, Guangzhou.
-                </td>
-              </tr>
-              <tr>
-                <td class="news-date">Aug 2022</td>
-                <td class="news-text">
-                  Started as a research intern at <strong>Microsoft Research Asia</strong>, Beijing.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div><!-- /#news -->
+  </div><!-- /.site-content -->
 
 
-    <!-- ===== PUBLICATIONS ===== -->
-    <div class="container pb-3 px-0 px-md-3" id="publications" style="padding-top:2.5rem;">
-      <h4 style="padding-bottom:.3rem;">Publications</h4>
-      <p style="font-size:.83rem; color:#888; margin-bottom:1rem;">
-        * denotes equal contribution. Author names are listed in order of contribution unless noted.
-      </p>
+  <!-- ===== LOAD PUBLICATIONS ===== -->
+  <script>
+    /* Publications data (mirrors projects.json for offline / local-file compatibility) */
+    const PROJECTS = [
+      {
+        "id": "revit",
+        "short": "ReViT",
+        "title": "ReViT: Rotational-equivariant Vision Transformers for Neural PDE Solvers",
+        "authors": "Hao Wei, Bjoern List, Nils Thuerey",
+        "venue": "ICML 2026",
+        "oral": true,
+        "description": "We enforce strict rotational equivariance on grid-based physical fields via locally invariant representations, enabling standard self-attention to maintain rotational symmetry. ReViT achieves up to 65% MSE reduction compared to state-of-the-art methods on 2D and 3D PDE benchmarks.",
+        "image": "assets/images/revit.png",
+        "paper": { "url": "https://openreview.net/forum?id=fy2IXBBThK&referrer=%5Bthe%20profile%20of%20Hao%20Wei%5D(%2Fprofile%3Fid%3D~Hao_Wei9)", "label": "OpenReview" },
+        "pdf": "assets/uploads/revit.pdf",
+        "code": "https://github.com/tum-pbs/revit",
+        "project": "https://tum-pbs.github.io/revit-web/"
+      },
+      {
+        "id": "inc",
+        "short": "INC",
+        "title": "INC: An Indirect Neural Corrector for Auto-Regressive Hybrid PDE Solvers",
+        "authors": "Hao Wei, Aleksandra Franz, Bjoern List, Nils Thuerey",
+        "venue": "NeurIPS 2025",
+        "oral": false,
+        "description": "INC addresses error accumulation in hybrid PDE solvers by embedding learned corrections into the governing equations rather than directly modifying states, delivering up to 158.7% improvement in long-term trajectory accuracy and speedups of several orders of magnitude for 3D turbulence simulations.",
+        "image": "assets/images/inc.png",
+        "arxiv": "https://arxiv.org/abs/2511.12764",
+        "pdf": "assets/uploads/inc.pdf",
+        "code": "https://github.com/tum-pbs/INC",
+        "project": "https://tum-pbs.github.io/inc-paper/"
+      },
+      {
+        "id": "pict",
+        "short": "PICT",
+        "title": "PICT: A Differentiable, GPU-Accelerated Multi-Block PISO Solver for Simulation-Coupled Learning Tasks in Fluid Dynamics",
+        "authors": "Aleksandra Franz, Hao Wei, Luca Guastoni, Nils Thuerey",
+        "venue": "Journal of Computational Physics, 2025",
+        "oral": false,
+        "description": "A fully differentiable PISO-based fluid solver implemented in PyTorch with modular CUDA operators. Features validated 2nd-order accuracy on flexible multi-block domains, seamless deep learning integration, and enables end-to-end training of sub-grid scale turbulence models for 2D and 3D flows.",
+        "image": "assets/images/pict.jpg",
+        "arxiv": "https://arxiv.org/abs/2505.16992",
+        "pdf": "assets/uploads/pict.pdf",
+        "code": "https://github.com/tum-pbs/PICT"
+      },
+      {
+        "id": "ml-tobacco",
+        "short": "ML-Tobacco",
+        "title": "Predicting Tobacco Pyrolysis Based on Chemical Constituents and Heating Conditions Using Machine Learning Approaches",
+        "authors": "Hao Wei, Jiangkuan Xing, Kun Luo, Yuhan Peng, et al.",
+        "venue": "Fuel, 2023",
+        "oral": false,
+        "description": "A tobacco pyrolysis model built on chemical constituents and heating conditions using the Extremely Randomized Trees algorithm. Feature selection via Pearson correlation and hyperparameter optimization yield R² > 0.967 on unseen data.",
+        "image": "assets/images/ml-tobacco.jpg",
+        "paper": { "url": "https://doi.org/10.1016/j.fuel.2022.126895", "label": "Elsevier" },
+        "pdf": "https://doi.org/10.1016/j.fuel.2022.126895"
+      },
+      {
+        "id": "toba-cpd",
+        "short": "Toba-CPD",
+        "title": "Toba-CPD: An Extended Chemical Percolation Devolatilization Model for Tobacco Pyrolysis",
+        "authors": "Hao Wei, Yuhan Peng, Hua Huang, Jianren Fan, et al.",
+        "venue": "ACS Omega, 2022",
+        "oral": false,
+        "description": "An extended Chemical Percolation Devolatilization (CPD) model for tobacco pyrolysis, with a grid-search optimization strategy for parameter calibration from thermogravimetric analysis data.",
+        "image": "assets/images/toba-cpd.jpg",
+        "paper": { "url": "https://doi.org/10.1021/acsomega.2c05098", "label": "ACS" },
+        "pdf": "https://doi.org/10.1021/acsomega.2c05098"
+      },
+      {
+        "id": "co-pyrolysis",
+        "short": "Co-Pyrolysis",
+        "title": "Predicting Co-Pyrolysis of Coal and Biomass Using Machine Learning Approaches",
+        "authors": "Hao Wei, Kun Luo, Jiangkuan Xing, Jianren Fan",
+        "venue": "Fuel, 2021",
+        "oral": false,
+        "description": "A machine learning model for predicting coal and biomass co-pyrolysis behavior, providing a data-driven approach for gas-solid reactive flow modeling.",
+        "image": "assets/images/co-pyrolysis.jpg",
+        "paper": { "url": "https://doi.org/10.1016/j.fuel.2021.122248", "label": "Elsevier" },
+        "pdf": "https://doi.org/10.1016/j.fuel.2021.122248"
+      },
+      {
+        "id": "flammability-limit",
+        "short": "Flammability",
+        "title": "The Effect of CO₂ on the Lower Flammability Limit of C₃H₈ in O₂/CO₂ Atmosphere at High Temperature and Pressure",
+        "authors": "Hao Wei, Xianzhong Hu, Bingrong Huang",
+        "venue": "Fuel, 2021",
+        "oral": false,
+        "description": "A physics-based algorithm for modeling the lower flammability limit of propane in an O₂/CO₂ atmosphere under elevated temperature and pressure conditions.",
+        "image": "assets/images/flammability-limit.jpg",
+        "paper": { "url": "https://doi.org/10.1016/j.fuel.2021.122023", "label": "Elsevier" },
+        "pdf": "https://doi.org/10.1016/j.fuel.2021.122023"
+      },
+      {
+        "id": "flame-speed",
+        "short": "Flame Speed",
+        "title": "Experimental Investigation of Laminar Flame Speeds of Propane in O₂/CO₂ Atmosphere and Kinetic Simulation",
+        "authors": "Xianzhong Hu, Hao Wei",
+        "venue": "Fuel, 2020",
+        "oral": false,
+        "description": "Experimental measurement and kinetic simulation of laminar flame speeds of propane in an O₂/CO₂ atmosphere, using a 1-D Navier-Stokes solver with detailed species transport equations.",
+        "image": "assets/images/flame-speed.jpg",
+        "paper": { "url": "https://doi.org/10.1016/j.fuel.2020.117347", "label": "Elsevier" },
+        "pdf": "https://doi.org/10.1016/j.fuel.2020.117347"
+      }
+    ];
 
-      <div id="projects-container"></div>
-    </div><!-- /#publications -->
-
-
-    <!-- ===== EXPERIENCE ===== -->
-    <div class="container pb-3 px-0 px-md-3" id="experience" style="padding-top:2.5rem;">
-      <h4 style="padding-bottom:.75rem;">Experience &amp; Education</h4>
-
-      <!-- TUM PhD -->
-      <div class="row exp-row">
-        <div class="col-12 col-md-2">
-          <span class="exp-date">Dec 2023 – present</span>
-        </div>
-        <div class="col-12 col-md-10">
-          <p class="exp-title mb-0">PhD Candidate in Computer Science</p>
-          <p class="exp-org mb-0">
-            <a href="https://ge.in.tum.de/about/n-thuerey/" target="_blank" rel="noopener noreferrer">Physics-based Simulation Group</a>,
-            Technical University of Munich
-          </p>
-          <p class="exp-detail">Research on encoding physics into ML &middot; Advised by Prof. <a href="https://ge.in.tum.de/about/n-thuerey/" target="_blank" rel="noopener noreferrer">Nils Thuerey</a> &middot; Munich, Germany</p>
-        </div>
-      </div>
-
-      <!-- HKUST internship -->
-      <div class="row exp-row">
-        <div class="col-12 col-md-2">
-          <span class="exp-date">Jul – Nov 2023</span>
-        </div>
-        <div class="col-12 col-md-10">
-          <p class="exp-title mb-0">Research Assistant</p>
-          <p class="exp-org mb-0">
-            <a href="https://hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">Hong Kong University of Science and Technology</a>,
-            Thrust of Data Science and Analytics Lab
-          </p>
-          <p class="exp-detail">Developed neural PDE solvers for unstructured inputs based on MPNNs &middot; Advised by Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs" target="_blank" rel="noopener noreferrer">Wei Wang</a> &middot; Guangzhou, China</p>
-        </div>
-      </div>
-
-      <!-- ZJU RA -->
-      <div class="row exp-row">
-        <div class="col-12 col-md-2">
-          <span class="exp-date">Mar – Jun 2023</span>
-        </div>
-        <div class="col-12 col-md-10">
-          <p class="exp-title mb-0">Research Assistant</p>
-          <p class="exp-org mb-0">
-            <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a>,
-            Computational Physics Lab
-          </p>
-          <p class="exp-detail">Developed models for tobacco pyrolysis: a chemical-based FORTRAN model and an ML-based model &middot; Hangzhou, China</p>
-        </div>
-      </div>
-
-      <!-- MSRA internship -->
-      <div class="row exp-row">
-        <div class="col-12 col-md-2">
-          <span class="exp-date">Aug – Nov 2022</span>
-        </div>
-        <div class="col-12 col-md-10">
-          <p class="exp-title mb-0">Research Intern</p>
-          <p class="exp-org mb-0">
-            <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank" rel="noopener noreferrer">Microsoft Research Asia</a>,
-            AI4Science Lab
-          </p>
-          <p class="exp-detail">Developed a hybrid PDE solver by integrating FNO into a differentiable FDM solver &middot; Beijing, China</p>
-        </div>
-      </div>
-
-      <!-- ZJU Master -->
-      <div class="row exp-row">
-        <div class="col-12 col-md-2">
-          <span class="exp-date">2020 – 2023</span>
-        </div>
-        <div class="col-12 col-md-10">
-          <p class="exp-title mb-0">M.S. in Engineering</p>
-          <p class="exp-org mb-0">
-            <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a>
-          </p>
-          <p class="exp-detail">Research on ML for industry &middot; Advised by Prof. <a href="https://scholar.google.com/citations?user=_SEg1VEAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Kun Luo</a> and Prof. <a href="https://person.zju.edu.cn/en/0084045#862878" target="_blank" rel="noopener noreferrer">Jianren Fan</a> &middot; Hangzhou, China</p>
-        </div>
-      </div>
-
-      <!-- NEU Bachelor -->
-      <div class="row exp-row">
-        <div class="col-12 col-md-2">
-          <span class="exp-date">2016 – 2020</span>
-        </div>
-        <div class="col-12 col-md-10">
-          <p class="exp-title mb-0">B.S. in Engineering</p>
-          <p class="exp-org mb-0">
-            <a href="http://english.neu.edu.cn/" target="_blank" rel="noopener noreferrer">Northeastern University</a>
-          </p>
-          <p class="exp-detail">Research on computational combustion &middot; Shenyang, China</p>
-        </div>
-      </div>
-
-    </div><!-- /#experience -->
-
-
-    <!-- ===== CONTACT ===== -->
-    <div class="container pb-5 px-0 px-md-3" id="contact" style="padding-top:2.5rem;">
-      <h4 style="padding-bottom:.75rem;">Contact</h4>
-      <p style="font-size:.93rem; line-height:1.7rem;">
-        I am always open to research discussions and collaborations. Feel free to reach out!
-      </p>
-
-      <p class="contact-item">
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a href="mailto:howw1225@gmail.com">howw1225@gmail.com</a>
-      </p>
-      <p class="contact-item">
-        <i class="fa fa-github" aria-hidden="true"></i>
-        <a href="https://github.com/Howw-Way" target="_blank" rel="noopener noreferrer">github.com/Howw-Way</a>
-      </p>
-      <p class="contact-item">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        Physics-based Simulation Group, Technical University of Munich,
-        Boltzmannstraße 3, 85748 Garching, Germany
-      </p>
-    </div><!-- /#contact -->
-
-  </div><!-- /.wrapper -->
-  </main>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="page-content py-4">
-    <p>© 2026 Hao Wei &nbsp;·&nbsp; Last updated May 2026</p>
-  </footer>
-
-</div><!-- /.site-content -->
-
-
-<!-- ===== LOAD PUBLICATIONS ===== -->
-<script>
-  /* Publications data (mirrors projects.json for offline / local-file compatibility) */
-  const PROJECTS = [
-    {
-      "id": "revit",
-      "short": "ReViT",
-      "title": "ReViT: Rotational-equivariant Vision Transformers for Neural PDE Solvers",
-      "authors": "Hao Wei, Bjoern List, Nils Thuerey",
-      "venue": "ICML 2026",
-      "oral": true,
-      "description": "We enforce strict rotational equivariance on grid-based physical fields via locally invariant representations, enabling standard self-attention to maintain rotational symmetry. ReViT achieves up to 65% MSE reduction compared to state-of-the-art methods on 2D and 3D PDE benchmarks.",
-      "image": "assets/images/revit.png",
-      "paper": {"url": "https://openreview.net/forum?id=fy2IXBBThK&referrer=%5Bthe%20profile%20of%20Hao%20Wei%5D(%2Fprofile%3Fid%3D~Hao_Wei9)", "label": "OpenReview"},
-      "pdf": "assets/uploads/revit.pdf",
-      "code": "https://github.com/tum-pbs/revit",
-      "project": "https://tum-pbs.github.io/revit-web/"
-    },
-    {
-      "id": "inc",
-      "short": "INC",
-      "title": "INC: An Indirect Neural Corrector for Auto-Regressive Hybrid PDE Solvers",
-      "authors": "Hao Wei, Aleksandra Franz, Bjoern List, Nils Thuerey",
-      "venue": "NeurIPS 2025",
-      "oral": false,
-      "description": "INC addresses error accumulation in hybrid PDE solvers by embedding learned corrections into the governing equations rather than directly modifying states, delivering up to 158.7% improvement in long-term trajectory accuracy and speedups of several orders of magnitude for 3D turbulence simulations.",
-      "image": "assets/images/inc.png",
-      "arxiv": "https://arxiv.org/abs/2511.12764",
-      "pdf": "assets/uploads/inc.pdf",
-      "code": "https://github.com/tum-pbs/INC",
-      "project": "https://tum-pbs.github.io/inc-paper/"
-    },
-    {
-      "id": "pict",
-      "short": "PICT",
-      "title": "PICT: A Differentiable, GPU-Accelerated Multi-Block PISO Solver for Simulation-Coupled Learning Tasks in Fluid Dynamics",
-      "authors": "Aleksandra Franz, Hao Wei, Luca Guastoni, Nils Thuerey",
-      "venue": "Journal of Computational Physics, 2025",
-      "oral": false,
-      "description": "A fully differentiable PISO-based fluid solver implemented in PyTorch with modular CUDA operators. Features validated 2nd-order accuracy on flexible multi-block domains, seamless deep learning integration, and enables end-to-end training of sub-grid scale turbulence models for 2D and 3D flows.",
-      "image": "assets/images/pict.jpg",
-      "arxiv": "https://arxiv.org/abs/2505.16992",
-      "pdf": "assets/uploads/pict.pdf",
-      "code": "https://github.com/tum-pbs/PICT"
-    },
-    {
-      "id": "ml-tobacco",
-      "short": "ML-Tobacco",
-      "title": "Predicting Tobacco Pyrolysis Based on Chemical Constituents and Heating Conditions Using Machine Learning Approaches",
-      "authors": "Hao Wei, Jiangkuan Xing, Kun Luo, Yuhan Peng, et al.",
-      "venue": "Fuel, 2023",
-      "oral": false,
-      "description": "A tobacco pyrolysis model built on chemical constituents and heating conditions using the Extremely Randomized Trees algorithm. Feature selection via Pearson correlation and hyperparameter optimization yield R² > 0.967 on unseen data.",
-      "image": "assets/images/ml-tobacco.jpg",
-      "paper": {"url": "https://doi.org/10.1016/j.fuel.2022.126895", "label": "Elsevier"},
-      "pdf": "https://doi.org/10.1016/j.fuel.2022.126895"
-    },
-    {
-      "id": "toba-cpd",
-      "short": "Toba-CPD",
-      "title": "Toba-CPD: An Extended Chemical Percolation Devolatilization Model for Tobacco Pyrolysis",
-      "authors": "Hao Wei, Yuhan Peng, Hua Huang, Jianren Fan, et al.",
-      "venue": "ACS Omega, 2022",
-      "oral": false,
-      "description": "An extended Chemical Percolation Devolatilization (CPD) model for tobacco pyrolysis, with a grid-search optimization strategy for parameter calibration from thermogravimetric analysis data.",
-      "image": "assets/images/toba-cpd.jpg",
-      "paper": {"url": "https://doi.org/10.1021/acsomega.2c05098", "label": "ACS"},
-      "pdf": "https://doi.org/10.1021/acsomega.2c05098"
-    },
-    {
-      "id": "co-pyrolysis",
-      "short": "Co-Pyrolysis",
-      "title": "Predicting Co-Pyrolysis of Coal and Biomass Using Machine Learning Approaches",
-      "authors": "Hao Wei, Kun Luo, Jiangkuan Xing, Jianren Fan",
-      "venue": "Fuel, 2021",
-      "oral": false,
-      "description": "A machine learning model for predicting coal and biomass co-pyrolysis behavior, providing a data-driven approach for gas-solid reactive flow modeling.",
-      "image": "assets/images/co-pyrolysis.jpg",
-      "paper": {"url": "https://doi.org/10.1016/j.fuel.2021.122248", "label": "Elsevier"},
-      "pdf": "https://doi.org/10.1016/j.fuel.2021.122248"
-    },
-    {
-      "id": "flammability-limit",
-      "short": "Flammability",
-      "title": "The Effect of CO₂ on the Lower Flammability Limit of C₃H₈ in O₂/CO₂ Atmosphere at High Temperature and Pressure",
-      "authors": "Hao Wei, Xianzhong Hu, Bingrong Huang",
-      "venue": "Fuel, 2021",
-      "oral": false,
-      "description": "A physics-based algorithm for modeling the lower flammability limit of propane in an O₂/CO₂ atmosphere under elevated temperature and pressure conditions.",
-      "image": "assets/images/flammability-limit.jpg",
-      "paper": {"url": "https://doi.org/10.1016/j.fuel.2021.122023", "label": "Elsevier"},
-      "pdf": "https://doi.org/10.1016/j.fuel.2021.122023"
-    },
-    {
-      "id": "flame-speed",
-      "short": "Flame Speed",
-      "title": "Experimental Investigation of Laminar Flame Speeds of Propane in O₂/CO₂ Atmosphere and Kinetic Simulation",
-      "authors": "Xianzhong Hu*, Hao Wei*, Bingrong Huang, Jianren Fan",
-      "venue": "Fuel, 2020",
-      "oral": false,
-      "description": "Experimental measurement and kinetic simulation of laminar flame speeds of propane in an O₂/CO₂ atmosphere, using a 1-D Navier-Stokes solver with detailed species transport equations.",
-      "image": "assets/images/flame-speed.jpg",
-      "paper": {"url": "https://doi.org/10.1016/j.fuel.2020.117347", "label": "Elsevier"},
-      "pdf": "https://doi.org/10.1016/j.fuel.2020.117347"
+    /* Map venue string to CSS badge class */
+    function venueBadgeClass(venue) {
+      if (!venue) return 'badge-venue';
+      const v = venue.toLowerCase();
+      if (v.includes('icml')) return 'badge-venue badge-venue-icml';
+      if (v.includes('neurips') || v.includes('nips')) return 'badge-venue badge-venue-neurips';
+      return 'badge-venue';
     }
-  ];
 
-  /* Map venue string to CSS badge class */
-  function venueBadgeClass(venue) {
-    if (!venue) return 'badge-venue';
-    const v = venue.toLowerCase();
-    if (v.includes('icml')) return 'badge-venue badge-venue-icml';
-    if (v.includes('neurips') || v.includes('nips')) return 'badge-venue badge-venue-neurips';
-    return 'badge-venue';
-  }
+    function loadProjects() {
+      const projects = PROJECTS;
+      const container = document.getElementById('projects-container');
+      if (!container) return;
 
-  function loadProjects() {
-    const projects = PROJECTS;
-    const container = document.getElementById('projects-container');
-    if (!container) return;
+      projects.forEach(p => {
+        /* Build link row */
+        const links = [
+          p.pdf && `<a href="${p.pdf}"     target="_blank" rel="noopener noreferrer"><i class="fa fa-file-pdf-o"></i>&nbsp;PDF</a>`,
+          p.arxiv && `<a href="${p.arxiv}"   target="_blank" rel="noopener noreferrer"><i class="fa fa-file-text-o"></i>&nbsp;arXiv</a>`,
+          p.paper && `<a href="${p.paper.url}" target="_blank" rel="noopener noreferrer"><i class="fa fa-book"></i>&nbsp;${p.paper.label}</a>`,
+          p.code && `<a href="${p.code}"    target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i>&nbsp;Code</a>`,
+          p.project && `<a href="${p.project}" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i>&nbsp;Project Page</a>`,
+        ].filter(Boolean).join('&nbsp;&nbsp;&nbsp;');
 
-    projects.forEach(p => {
-      /* Build link row */
-      const links = [
-        p.pdf     && `<a href="${p.pdf}"     target="_blank" rel="noopener noreferrer"><i class="fa fa-file-pdf-o"></i>&nbsp;PDF</a>`,
-        p.arxiv   && `<a href="${p.arxiv}"   target="_blank" rel="noopener noreferrer"><i class="fa fa-file-text-o"></i>&nbsp;arXiv</a>`,
-        p.paper   && `<a href="${p.paper.url}" target="_blank" rel="noopener noreferrer"><i class="fa fa-book"></i>&nbsp;${p.paper.label}</a>`,
-        p.code    && `<a href="${p.code}"    target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i>&nbsp;Code</a>`,
-        p.project && `<a href="${p.project}" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i>&nbsp;Project Page</a>`,
-      ].filter(Boolean).join('&nbsp;&nbsp;&nbsp;');
+        /* Bold + dotted-underline "Hao Wei" in author list */
+        const authorsHtml = (p.authors || '').replace(
+          /Hao Wei/g,
+          '<span class="author-me">Hao Wei</span>'
+        );
 
-      /* Bold + dotted-underline "Hao Wei" in author list */
-      const authorsHtml = (p.authors || '').replace(
-        /Hao Wei/g,
-        '<span class="author-me">Hao Wei</span>'
-      );
+        /* Venue badge (+ oral badge if applicable) */
+        const venueBadge = p.venue
+          ? `<span class="${venueBadgeClass(p.venue)}">${p.venue}</span>`
+          : '';
+        const oralBadge = p.oral
+          ? `&nbsp;<span class="badge-oral">Oral</span>`
+          : '';
 
-      /* Venue badge (+ oral badge if applicable) */
-      const venueBadge = p.venue
-        ? `<span class="${venueBadgeClass(p.venue)}">${p.venue}</span>`
-        : '';
-      const oralBadge = p.oral
-        ? `&nbsp;<span class="badge-oral">Oral</span>`
-        : '';
+        /* Image or placeholder */
+        const imageHtml = p.image
+          ? `<img class="pub-img" src="${p.image}" alt="${p.title || ''}" title="${p.title || ''}">`
+          : `<div class="pub-placeholder">${p.short || 'Paper'}</div>`;
 
-      /* Image or placeholder */
-      const imageHtml = p.image
-        ? `<img class="pub-img" src="${p.image}" alt="${p.title || ''}" title="${p.title || ''}">`
-        : `<div class="pub-placeholder">${p.short || 'Paper'}</div>`;
-
-      const html = `
+        const html = `
         <div class="row pub-row mt-3">
           <div class="col-12 col-md-3 d-flex justify-content-center align-items-center mb-3 mb-md-0">
             ${imageHtml}
@@ -484,12 +513,13 @@
           </div>
         </div>`;
 
-      container.insertAdjacentHTML('beforeend', html);
-    });
-  }
+        container.insertAdjacentHTML('beforeend', html);
+      });
+    }
 
-  loadProjects();
-</script>
+    loadProjects();
+  </script>
 
 </body>
+
 </html>
