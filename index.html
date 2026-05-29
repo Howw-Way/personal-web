@@ -343,7 +343,7 @@
       "venue": "Journal of Computational Physics, 2025",
       "oral": false,
       "description": "A fully differentiable PISO-based fluid solver implemented in PyTorch with modular CUDA operators. Features validated 2nd-order accuracy on flexible multi-block domains, seamless deep learning integration, and enables end-to-end training of sub-grid scale turbulence models for 2D and 3D flows.",
-      "image": null,
+      "image": "assets/images/pict.jpg",
       "arxiv": "https://arxiv.org/abs/2505.16992",
       "pdf": "assets/uploads/pict.pdf",
       "code": "https://github.com/tum-pbs/PICT"
@@ -371,7 +371,7 @@
       "oral": false,
       "description": "A tobacco pyrolysis model built on chemical constituents and heating conditions using the Extremely Randomized Trees algorithm. Feature selection via Pearson correlation and hyperparameter optimization yield R² > 0.967 on unseen data.",
       "image": "assets/images/ml-tobacco.jpg",
-      "arxiv": "https://doi.org/10.1016/j.fuel.2022.126895",
+      "paper": {"url": "https://doi.org/10.1016/j.fuel.2022.126895", "label": "Elsevier"},
       "pdf": "https://doi.org/10.1016/j.fuel.2022.126895"
     },
     {
@@ -383,7 +383,7 @@
       "oral": false,
       "description": "An extended Chemical Percolation Devolatilization (CPD) model for tobacco pyrolysis, with a grid-search optimization strategy for parameter calibration from thermogravimetric analysis data.",
       "image": "assets/images/toba-cpd.jpg",
-      "arxiv": "https://doi.org/10.1021/acsomega.2c05098",
+      "paper": {"url": "https://doi.org/10.1021/acsomega.2c05098", "label": "ACS"},
       "pdf": "https://doi.org/10.1021/acsomega.2c05098"
     },
     {
@@ -395,7 +395,7 @@
       "oral": false,
       "description": "A machine learning model for predicting coal and biomass co-pyrolysis behavior, providing a data-driven approach for gas-solid reactive flow modeling.",
       "image": "assets/images/co-pyrolysis.jpg",
-      "arxiv": "https://doi.org/10.1016/j.fuel.2021.122248",
+      "paper": {"url": "https://doi.org/10.1016/j.fuel.2021.122248", "label": "Elsevier"},
       "pdf": "https://doi.org/10.1016/j.fuel.2021.122248"
     },
     {
@@ -407,7 +407,7 @@
       "oral": false,
       "description": "A physics-based algorithm for modeling the lower flammability limit of propane in an O₂/CO₂ atmosphere under elevated temperature and pressure conditions.",
       "image": "assets/images/flammability-limit.jpg",
-      "arxiv": "https://doi.org/10.1016/j.fuel.2021.122023",
+      "paper": {"url": "https://doi.org/10.1016/j.fuel.2021.122023", "label": "Elsevier"},
       "pdf": "https://doi.org/10.1016/j.fuel.2021.122023"
     },
     {
@@ -419,7 +419,7 @@
       "oral": false,
       "description": "Experimental measurement and kinetic simulation of laminar flame speeds of propane in an O₂/CO₂ atmosphere, using a 1-D Navier-Stokes solver with detailed species transport equations.",
       "image": "assets/images/flame-speed.jpg",
-      "arxiv": "https://doi.org/10.1016/j.fuel.2020.117347",
+      "paper": {"url": "https://doi.org/10.1016/j.fuel.2020.117347", "label": "Elsevier"},
       "pdf": "https://doi.org/10.1016/j.fuel.2020.117347"
     }
   ];
@@ -443,6 +443,7 @@
       const links = [
         p.pdf     && `<a href="${p.pdf}"     target="_blank" rel="noopener noreferrer"><i class="fa fa-file-pdf-o"></i>&nbsp;PDF</a>`,
         p.arxiv   && `<a href="${p.arxiv}"   target="_blank" rel="noopener noreferrer"><i class="fa fa-file-text-o"></i>&nbsp;arXiv</a>`,
+        p.paper   && `<a href="${p.paper.url}" target="_blank" rel="noopener noreferrer"><i class="fa fa-book"></i>&nbsp;${p.paper.label}</a>`,
         p.code    && `<a href="${p.code}"    target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i>&nbsp;Code</a>`,
         p.project && `<a href="${p.project}" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i>&nbsp;Project Page</a>`,
       ].filter(Boolean).join('&nbsp;&nbsp;&nbsp;');
