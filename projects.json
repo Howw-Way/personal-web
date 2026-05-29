@@ -16,12 +16,14 @@
     "id": "pict",
     "short": "PICT",
     "title": "PICT: A Differentiable, GPU-Accelerated Multi-Block PISO Solver for Simulation-Coupled Learning Tasks in Fluid Dynamics",
-    "authors": "Aleksandra Franz, Hao Wei, et al.",
+    "authors": "Aleksandra Franz, Hao Wei, Luca Guastoni, Nils Thuerey",
     "venue": "Journal of Computational Physics, 2025",
     "oral": false,
-    "description": "A differentiable, CUDA-based, PyTorch-supported CFD solver for hybrid learning and gradient-based optimization. Validates both forward accuracy and solver gradients on standard fluid benchmarks, enabling supervised and unsupervised learning of stable sub-grid scale models for 2D and 3D turbulent flows.",
+    "description": "A fully differentiable PISO-based fluid solver implemented in PyTorch with modular CUDA operators. Features validated 2nd-order accuracy on flexible multi-block domains, seamless deep learning integration, and enables end-to-end training of sub-grid scale turbulence models for 2D and 3D flows.",
     "image": null,
-    "pdf": "assets/uploads/pict.pdf"
+    "arxiv": "https://arxiv.org/abs/2505.16992",
+    "pdf": "assets/uploads/pict.pdf",
+    "code": "https://github.com/tum-pbs/PICT"
   },
   {
     "id": "inc",
@@ -46,6 +48,7 @@
     "oral": false,
     "description": "A tobacco pyrolysis model built on chemical constituents and heating conditions using the Extremely Randomized Trees algorithm. Feature selection via Pearson correlation and hyperparameter optimization yield R² > 0.967 on unseen data.",
     "image": "assets/images/ml-tobacco.jpg",
+    "arxiv": "https://doi.org/10.1016/j.fuel.2022.126895",
     "pdf": "https://doi.org/10.1016/j.fuel.2022.126895"
   },
   {
@@ -57,6 +60,7 @@
     "oral": false,
     "description": "An extended Chemical Percolation Devolatilization (CPD) model for tobacco pyrolysis, with a grid-search optimization strategy for parameter calibration from thermogravimetric analysis data.",
     "image": "assets/images/toba-cpd.jpg",
+    "arxiv": "https://doi.org/10.1021/acsomega.2c05098",
     "pdf": "https://doi.org/10.1021/acsomega.2c05098"
   },
   {
@@ -68,6 +72,7 @@
     "oral": false,
     "description": "A machine learning model for predicting coal and biomass co-pyrolysis behavior, providing a data-driven approach for gas-solid reactive flow modeling.",
     "image": "assets/images/co-pyrolysis.jpg",
+    "arxiv": "https://doi.org/10.1016/j.fuel.2021.122248",
     "pdf": "https://doi.org/10.1016/j.fuel.2021.122248"
   },
   {
@@ -79,6 +84,7 @@
     "oral": false,
     "description": "A physics-based algorithm for modeling the lower flammability limit of propane in an O₂/CO₂ atmosphere under elevated temperature and pressure conditions.",
     "image": "assets/images/flammability-limit.jpg",
+    "arxiv": "https://doi.org/10.1016/j.fuel.2021.122023",
     "pdf": "https://doi.org/10.1016/j.fuel.2021.122023"
   },
   {
@@ -90,6 +96,7 @@
     "oral": false,
     "description": "Experimental measurement and kinetic simulation of laminar flame speeds of propane in an O₂/CO₂ atmosphere, using a 1-D Navier-Stokes solver with detailed species transport equations.",
     "image": "assets/images/flame-speed.jpg",
+    "arxiv": "https://doi.org/10.1016/j.fuel.2020.117347",
     "pdf": "https://doi.org/10.1016/j.fuel.2020.117347"
   }
 ]

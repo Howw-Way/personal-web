@@ -1,10 +1,10 @@
 # Hao Wei — Personal Academic Website
 
-A clean, single-page academic website for [Hao Wei](https://howw-way.github.io/personal-web/), PhD Candidate at the Technical University of Munich.
+A clean, single-page academic website for myself[Hao Wei](https://howw-way.github.io/personal-web/). 
 
 ## Overview
 
-This site showcases my research on **neural PDE solvers**, publications, and academic background. It is built as a lightweight static site using plain HTML, CSS, and JavaScript — no build tools or frameworks required.
+This site showcases my research, publications, and academic background. It is built as a lightweight static site using plain HTML, CSS, and JavaScript — no build tools or frameworks required.
 
 ## Structure
 
