@@ -128,6 +128,19 @@ p > a:hover {
   vertical-align: middle;
 }
 
+.badge-gold {
+  display: inline-block;
+  background-color: #fdf3d3;
+  color: #8a6a12;
+  border: 1px solid #ecd9a0;
+  padding: 0 7px;
+  border-radius: 3px;
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  vertical-align: middle;
+}
+
 .badge-venue {
   display: inline-block;
   background-color: #eef0f4;
@@ -253,6 +266,55 @@ p > a:hover {
   font-size: .82rem;
   font-weight: 200;
   color: #888;
+}
+
+/* ===== AWARDS & SERVICE ===== */
+.award-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.award-list li {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: .3rem;
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #555;
+}
+.award-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .58em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #c7cdd6;
+}
+.award-name {
+  font-weight: 500;
+  color: #333;
+}
+.award-note {
+  font-size: .78rem;
+  font-weight: 200;
+  color: #999;
+  white-space: nowrap;
+}
+.award-note::before {
+  content: "· ";
+}
+
+@media only screen and (max-width: 767px) {
+  .award-note {
+    white-space: normal;
+    display: block;
+  }
+  .award-note::before {
+    content: "";
+  }
 }
 
 /* ===== CONTACT ===== */
