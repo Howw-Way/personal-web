@@ -25,6 +25,9 @@ website/
 - **News** — Recent academic milestones
 - **Publications** — Full list with PDF, arXiv, code, and project page links
 - **Experience & Education** — Timeline of positions and degrees
+- **Honors & Awards** — Academic distinctions and reviewer recognition
+- **Academic Service** — Conference and journal reviewing
+- **Teaching** — Seminars and laboratory courses at TUM
 - **Contact** — Email, GitHub, and office address
 
 ## Tech Stack

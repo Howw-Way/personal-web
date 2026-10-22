@@ -60,6 +60,7 @@
               <li class="nav-item"><a class="nav-link" href="#experience">experience</a></li>
               <li class="nav-item"><a class="nav-link" href="#awards">awards</a></li>
               <li class="nav-item"><a class="nav-link" href="#service">service</a></li>
+              <li class="nav-item"><a class="nav-link" href="#teaching">teaching</a></li>
               <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
               <li class="nav-item">
                 <a class="nav-link" href="assets/uploads/resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -132,8 +133,8 @@
                   style="margin-right:1.5rem;">
                   <i class="fa fa-github" aria-hidden="true" style="margin-right:6px;"></i>GitHub
                 </a>
-                <a href="https://www.researchgate.net/profile/Hao-Wei-36" target="_blank" rel="noopener noreferrer">
-                  <i class="fa fa-flask" aria-hidden="true" style="margin-right:6px;"></i>ResearchGate
+                <a href="https://www.linkedin.com/in/hao-wei-223814266/" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-linkedin" aria-hidden="true" style="margin-right:6px;"></i>LinkedIn
                 </a>
               </p>
             </div>
@@ -150,6 +151,12 @@
             <div class="col-12" style="margin-top:.4rem;">
               <table class="news-table" aria-label="Recent news">
                 <tbody>
+                  <tr>
+                    <td class="news-date">Sept 2026</td>
+                    <td class="news-text">
+                      <strong>Solver-as-Teacher</strong> accepted at <strong>NeurIPS 2026</strong> as a poster.
+                    </td>
+                  </tr>
                   <tr>
                     <td class="news-date">May 2026</td>
                     <td class="news-text">
@@ -391,7 +398,10 @@
             <div class="col-12 col-md-10">
               <p class="exp-title mb-1">Conference Reviewer</p>
               <ul class="award-list">
-                <li><span class="award-name">NeurIPS</span> &mdash; 2026, 2025</li>
+                <li>
+                  <span class="award-name">NeurIPS</span> &mdash; 2026, 2025
+                  &nbsp;<span class="badge-gold">Top Reviewer 2026</span>
+                </li>
                 <li>
                   <span class="award-name">ICML</span> &mdash; 2025
                   &nbsp;<span class="badge-gold">Gold Reviewer</span>
@@ -401,7 +411,55 @@
             </div>
           </div>
 
+          <div class="row exp-row">
+            <div class="col-12 col-md-10 offset-md-2">
+              <p class="exp-title mb-1">Journal Reviewer</p>
+              <ul class="award-list">
+                <li><span class="award-name">ACM Transactions on Graphics (TOG)</span></li>
+                <li><span class="award-name">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</span></li>
+              </ul>
+            </div>
+          </div>
+
         </div><!-- /#service -->
+
+
+        <!-- ===== TEACHING ===== -->
+        <div class="container pb-3 px-0 px-md-3" id="teaching" style="padding-top:2.5rem;">
+          <h4 style="padding-bottom:.75rem;">Teaching</h4>
+          <p class="exp-org mb-3">Technical University of Munich</p>
+
+          <div class="row exp-row">
+            <div class="col-12 col-md-2">
+              <span class="exp-date">Summer 2026<br>Summer 2024</span>
+            </div>
+            <div class="col-12 col-md-10">
+              <p class="exp-title mb-1">
+                <a href="https://www.cs.cit.tum.de/cg/teaching/summer-term-26/deep-learning-in-computer-graphics/" target="_blank" rel="noopener noreferrer">Master-Seminar – Deep Learning in Computer Graphics</a>
+              </p>
+            </div>
+          </div>
+          <div class="row exp-row">
+            <div class="col-12 col-md-2">
+              <span class="exp-date">Summer 2025</span>
+            </div>
+            <div class="col-12 col-md-10">
+              <p class="exp-title mb-1">
+                <a href="https://www.cs.cit.tum.de/cg/teaching/summer-term-25/deep-learning-in-physics/" target="_blank" rel="noopener noreferrer">Master-Seminar – Deep Learning in Physics</a>
+              </p>
+            </div>
+          </div>
+          <div class="row exp-row">
+            <div class="col-12 col-md-2">
+              <span class="exp-date">Winter 2025/26<br>Winter 2024/25</span>
+            </div>
+            <div class="col-12 col-md-10">
+              <p class="exp-title mb-1">
+                <a href="https://www.cs.cit.tum.de/cg/teaching/winter-term-25-26/computer-games-laboratory/" target="_blank" rel="noopener noreferrer">Computer Games Laboratory</a>
+              </p>
+            </div>
+          </div>
+        </div><!-- /#teaching -->
 
 
         <!-- ===== CONTACT ===== -->
@@ -431,7 +489,7 @@
 
     <!-- ===== FOOTER ===== -->
     <footer class="page-content py-4">
-      <p>© 2026 Hao Wei &nbsp;·&nbsp; Last updated August 2026</p>
+      <p>© 2026 Hao Wei &nbsp;·&nbsp; Last updated October 2026</p>
     </footer>
 
   </div><!-- /.site-content -->
@@ -442,6 +500,16 @@
     /* Publications data (mirrors projects.json for offline / local-file compatibility) */
     const PROJECTS = [
       {
+        "id": "sat",
+        "image": "assets/images/sat-overview.png",
+        "short": "SaT",
+        "title": "Solver-as-Teacher: Solver-Guided On-Policy Post-Training Framework for PDE Foundation Models",
+        "authors": "Hao Wei, Shangzhe Li, Nils Thuerey",
+        "venue": "NeurIPS 2026",
+        "oral": false,
+        "description": "An on-policy post-training framework for PDE foundation models that uses numerical-solver corrections at student-visited states to improve autoregressive rollouts across 2D and 3D PDE benchmarks. Paper and project links coming soon."
+      },
+      {
         "id": "revit",
         "short": "ReViT",
         "title": "ReViT: Rotational-equivariant Vision Transformers for Neural PDE Solvers",
@@ -450,7 +518,10 @@
         "oral": true,
         "description": "We enforce strict rotational equivariance on grid-based physical fields via locally invariant representations, enabling standard self-attention to maintain rotational symmetry. ReViT achieves up to 65% MSE reduction compared to state-of-the-art methods on 2D and 3D PDE benchmarks.",
         "image": "assets/images/revit.png",
-        "paper": { "url": "https://openreview.net/forum?id=fy2IXBBThK&referrer=%5Bthe%20profile%20of%20Hao%20Wei%5D(%2Fprofile%3Fid%3D~Hao_Wei9)", "label": "OpenReview" },
+        "paper": {
+          "url": "https://openreview.net/forum?id=fy2IXBBThK&referrer=%5Bthe%20profile%20of%20Hao%20Wei%5D(%2Fprofile%3Fid%3D~Hao_Wei9)",
+          "label": "OpenReview"
+        },
         "pdf": "assets/uploads/revit.pdf",
         "code": "https://github.com/tum-pbs/revit",
         "project": "https://tum-pbs.github.io/revit-web/"
@@ -491,7 +562,10 @@
         "oral": false,
         "description": "A tobacco pyrolysis model built on chemical constituents and heating conditions using the Extremely Randomized Trees algorithm. Feature selection via Pearson correlation and hyperparameter optimization yield R² > 0.967 on unseen data.",
         "image": "assets/images/ml-tobacco.jpg",
-        "paper": { "url": "https://doi.org/10.1016/j.fuel.2022.126895", "label": "Elsevier" },
+        "paper": {
+          "url": "https://doi.org/10.1016/j.fuel.2022.126895",
+          "label": "Elsevier"
+        },
         "pdf": "https://doi.org/10.1016/j.fuel.2022.126895"
       },
       {
@@ -503,7 +577,10 @@
         "oral": false,
         "description": "An extended Chemical Percolation Devolatilization (CPD) model for tobacco pyrolysis, with a grid-search optimization strategy for parameter calibration from thermogravimetric analysis data.",
         "image": "assets/images/toba-cpd.jpg",
-        "paper": { "url": "https://doi.org/10.1021/acsomega.2c05098", "label": "ACS" },
+        "paper": {
+          "url": "https://doi.org/10.1021/acsomega.2c05098",
+          "label": "ACS"
+        },
         "pdf": "https://doi.org/10.1021/acsomega.2c05098"
       },
       {
@@ -515,7 +592,10 @@
         "oral": false,
         "description": "A machine learning model for predicting coal and biomass co-pyrolysis behavior, providing a data-driven approach for gas-solid reactive flow modeling.",
         "image": "assets/images/co-pyrolysis.jpg",
-        "paper": { "url": "https://doi.org/10.1016/j.fuel.2021.122248", "label": "Elsevier" },
+        "paper": {
+          "url": "https://doi.org/10.1016/j.fuel.2021.122248",
+          "label": "Elsevier"
+        },
         "pdf": "https://doi.org/10.1016/j.fuel.2021.122248"
       },
       {
@@ -527,7 +607,10 @@
         "oral": false,
         "description": "A physics-based algorithm for modeling the lower flammability limit of propane in an O₂/CO₂ atmosphere under elevated temperature and pressure conditions.",
         "image": "assets/images/flammability-limit.jpg",
-        "paper": { "url": "https://doi.org/10.1016/j.fuel.2021.122023", "label": "Elsevier" },
+        "paper": {
+          "url": "https://doi.org/10.1016/j.fuel.2021.122023",
+          "label": "Elsevier"
+        },
         "pdf": "https://doi.org/10.1016/j.fuel.2021.122023"
       },
       {
@@ -539,7 +622,10 @@
         "oral": false,
         "description": "Experimental measurement and kinetic simulation of laminar flame speeds of propane in an O₂/CO₂ atmosphere, using a 1-D Navier-Stokes solver with detailed species transport equations.",
         "image": "assets/images/flame-speed.jpg",
-        "paper": { "url": "https://doi.org/10.1016/j.fuel.2020.117347", "label": "Elsevier" },
+        "paper": {
+          "url": "https://doi.org/10.1016/j.fuel.2020.117347",
+          "label": "Elsevier"
+        },
         "pdf": "https://doi.org/10.1016/j.fuel.2020.117347"
       }
     ];

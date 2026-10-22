@@ -1,5 +1,15 @@
 [
   {
+    "id": "sat",
+    "image": "assets/images/sat-overview.png",
+    "short": "SaT",
+    "title": "Solver-as-Teacher: Solver-Guided On-Policy Post-Training Framework for PDE Foundation Models",
+    "authors": "Hao Wei, Shangzhe Li, Nils Thuerey",
+    "venue": "NeurIPS 2026",
+    "oral": false,
+    "description": "An on-policy post-training framework for PDE foundation models that uses numerical-solver corrections at student-visited states to improve autoregressive rollouts across 2D and 3D PDE benchmarks. Paper and project links coming soon."
+  },
+  {
     "id": "revit",
     "short": "ReViT",
     "title": "ReViT: Rotational-equivariant Vision Transformers for Neural PDE Solvers",
@@ -8,7 +18,10 @@
     "oral": true,
     "description": "We enforce strict rotational equivariance on grid-based physical fields via locally invariant representations, enabling standard self-attention to maintain rotational symmetry. ReViT achieves up to 65% MSE reduction compared to state-of-the-art methods on 2D and 3D PDE benchmarks.",
     "image": "assets/images/revit.png",
-    "paper": {"url": "https://openreview.net/forum?id=fy2IXBBThK&referrer=%5Bthe%20profile%20of%20Hao%20Wei%5D(%2Fprofile%3Fid%3D~Hao_Wei9)", "label": "OpenReview"},
+    "paper": {
+      "url": "https://openreview.net/forum?id=fy2IXBBThK&referrer=%5Bthe%20profile%20of%20Hao%20Wei%5D(%2Fprofile%3Fid%3D~Hao_Wei9)",
+      "label": "OpenReview"
+    },
     "pdf": "assets/uploads/revit.pdf",
     "code": "https://github.com/tum-pbs/revit",
     "project": "https://tum-pbs.github.io/revit-web/"
@@ -49,7 +62,10 @@
     "oral": false,
     "description": "A tobacco pyrolysis model built on chemical constituents and heating conditions using the Extremely Randomized Trees algorithm. Feature selection via Pearson correlation and hyperparameter optimization yield R² > 0.967 on unseen data.",
     "image": "assets/images/ml-tobacco.jpg",
-    "paper": {"url": "https://doi.org/10.1016/j.fuel.2022.126895", "label": "Elsevier"},
+    "paper": {
+      "url": "https://doi.org/10.1016/j.fuel.2022.126895",
+      "label": "Elsevier"
+    },
     "pdf": "https://doi.org/10.1016/j.fuel.2022.126895"
   },
   {
@@ -61,7 +77,10 @@
     "oral": false,
     "description": "An extended Chemical Percolation Devolatilization (CPD) model for tobacco pyrolysis, with a grid-search optimization strategy for parameter calibration from thermogravimetric analysis data.",
     "image": "assets/images/toba-cpd.jpg",
-    "paper": {"url": "https://doi.org/10.1021/acsomega.2c05098", "label": "ACS"},
+    "paper": {
+      "url": "https://doi.org/10.1021/acsomega.2c05098",
+      "label": "ACS"
+    },
     "pdf": "https://doi.org/10.1021/acsomega.2c05098"
   },
   {
@@ -73,7 +92,10 @@
     "oral": false,
     "description": "A machine learning model for predicting coal and biomass co-pyrolysis behavior, providing a data-driven approach for gas-solid reactive flow modeling.",
     "image": "assets/images/co-pyrolysis.jpg",
-    "paper": {"url": "https://doi.org/10.1016/j.fuel.2021.122248", "label": "Elsevier"},
+    "paper": {
+      "url": "https://doi.org/10.1016/j.fuel.2021.122248",
+      "label": "Elsevier"
+    },
     "pdf": "https://doi.org/10.1016/j.fuel.2021.122248"
   },
   {
@@ -85,19 +107,25 @@
     "oral": false,
     "description": "A physics-based algorithm for modeling the lower flammability limit of propane in an O₂/CO₂ atmosphere under elevated temperature and pressure conditions.",
     "image": "assets/images/flammability-limit.jpg",
-    "paper": {"url": "https://doi.org/10.1016/j.fuel.2021.122023", "label": "Elsevier"},
+    "paper": {
+      "url": "https://doi.org/10.1016/j.fuel.2021.122023",
+      "label": "Elsevier"
+    },
     "pdf": "https://doi.org/10.1016/j.fuel.2021.122023"
   },
   {
     "id": "flame-speed",
     "short": "Flame Speed",
     "title": "Experimental Investigation of Laminar Flame Speeds of Propane in O₂/CO₂ Atmosphere and Kinetic Simulation",
-    "authors": "Xianzhong Hu*, Hao Wei*, Bingrong Huang, Jianren Fan",
+    "authors": "Xianzhong Hu, Hao Wei",
     "venue": "Fuel, 2020",
     "oral": false,
     "description": "Experimental measurement and kinetic simulation of laminar flame speeds of propane in an O₂/CO₂ atmosphere, using a 1-D Navier-Stokes solver with detailed species transport equations.",
     "image": "assets/images/flame-speed.jpg",
-    "paper": {"url": "https://doi.org/10.1016/j.fuel.2020.117347", "label": "Elsevier"},
+    "paper": {
+      "url": "https://doi.org/10.1016/j.fuel.2020.117347",
+      "label": "Elsevier"
+    },
     "pdf": "https://doi.org/10.1016/j.fuel.2020.117347"
   }
 ]
